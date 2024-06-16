@@ -21,13 +21,6 @@ pub fn build(b: *std.Build) void {
         .optimize = optimize,
     });
 
-    if (b.lazyDependency("aro", .{
-        .target = target,
-        .optimize = optimize,
-    })) |dep| {
-        lib.root_module.addImport("aro", dep.module("aro"));
-    }
-
     lib.root_module.addImport("clap", clap_mod);
     lib.root_module.addImport("mecha", mecha_mod);
 
