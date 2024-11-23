@@ -3,13 +3,12 @@
     .version = "0.0.0",
     .dependencies = .{
         .mecha = .{
-            .url = "https://github.com/Hejsil/mecha/archive/2edc8ad6b5bb1728f4c6fae358438006b0ce04ee.tar.gz",
-            .hash = "12206311fbaae8a0adc35e4835ddd9bcc1ff8fff756c9df40e19133f007fa05d3948",
+            .url = "https://github.com/Hejsil/mecha/archive/master.tar.gz",
+            .hash = "1220432471df64c2cccb08ac9578d57c21527d1894fb50758c63a16399e7c615036a",
         },
         .aro = .{
-            .url = "https://github.com/Vexu/arocc/archive/8a885d8f6b65c6ed44d56a9f51e0401d76e6940d.tar.gz",
-            .hash = "1220924a9c1a1762d06d8b0b33ce6c3edf0c3ec4beef1be14177fdc1aaeba301ee03",
-            .lazy = true,
+            .url = "https://github.com/Vexu/arocc/archive/master.tar.gz",
+            .hash = "1220a2b3d49e13ae812e572a41bf8bf927cd1d0c14355913c63bb9af470021bddf4c",
         },
     },
     .paths = .{
